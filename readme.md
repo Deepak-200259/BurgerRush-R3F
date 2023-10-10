@@ -1,6 +1,6 @@
 # Burger Rush Game in React Three Fiber (R3F)
 
-Visit the Link for Demo - [Burger-Rush](https://portfolio-r3f.netlify.app/)
+Visit the Link for Demo - [Burger-Rush](https://burger-rush.netlify.app)
 
 ## Challenge in Game 
 
