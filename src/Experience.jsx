@@ -8,6 +8,7 @@ import BlockAxe from "./Blocks/BlockAxe.jsx";
 import BlockLimbo from "./Blocks/BlockLimbo.jsx";
 import useGame from "./Store/useGame.jsx";
 import { OrbitControls } from "@react-three/drei";
+import BlockDoor from "./Blocks/BlockDoor.jsx";
 /**
  * @description Will contain each and every component for user Experience
  * @returns whole user experience containing the performance monitor, color of scene, Physics World containing lights, level and player component.
@@ -31,7 +32,7 @@ export default function Experience() {
         {/* Level Component - containing number of obstacles and type of obstacles and floor to be added */}
         <Level
           count={blocksCount}
-          types={[BlockSpinner, BlockAxe, BlockLimbo]}
+          types={[BlockSpinner, BlockAxe, BlockLimbo, BlockDoor]}
           seed={blocksSeed}
         />
 

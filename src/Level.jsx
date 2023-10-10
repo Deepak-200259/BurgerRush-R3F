@@ -5,6 +5,7 @@ import BlockLimbo from "./Blocks/BlockLimbo";
 import Walls from "./Walls/Walls";
 import Reward from "./Blocks/EndBlock";
 import StartBlock from "./Blocks/StartBlock";
+import BlockDoor from "./Blocks/BlockDoor";
 /**
  * @description One Level of the Game
  * @param Count - Number of Obstacle Blocks, by default - 5
@@ -14,7 +15,7 @@ import StartBlock from "./Blocks/StartBlock";
 
 export default function Level({
   count = 5,
-  types = [BlockSpinner, BlockAxe, BlockLimbo],
+  types = [BlockSpinner, BlockAxe, BlockLimbo, BlockDoor],
   seed = 0,
 }) {
   const blocks = useMemo(() => {
